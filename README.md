@@ -1,10 +1,31 @@
 ### Environment Variables
 
-- KMS_KEY_ID
-- AWS_REGION
-- AWS_SECRET_ACCESS_KEY
-- AWS_ACCESS_KEY_ID
+- PROJECT
+- KEYRING_REGION
+- KEYRING
+- CRYPTO_KEY
+- CREDENTIAL_FILE
 
 ### Files
 
 license.txt
+
+### Directory
+
+./data
+
+### Run
+
+vagrant up
+
+### Default Nodes
+
+vault_leader
+follower_node1
+follower_node2
+
+### Tokens/Keys
+
+./data/recovery_key-vault
+./data/root_token-vault
+
